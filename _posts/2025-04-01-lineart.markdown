@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PiaMuscle: Improving Piano Skill Acquisition by Cost-effectively Estimating and Visualizing Activities of Miniature Hand Muscles"
-date: 2025
+title: "LineArt: A Knowledge-guided Training-free High-quality Appearance Transfer for Design Drawing with Diffusion Model"
+date: 2025-04-01
 categories: research
 image: /images/piamuscle.png
 authors: Xi Wang, Hongzhen Li, Heng Fang, <strong>Yichen Peng</strong>, Haoran Xie, Xi Yang, Chuntao Li

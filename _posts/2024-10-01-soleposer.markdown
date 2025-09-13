@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dual-modal 3d human pose estimation using insole foot pressure sensors"
-date: 2025
+date: 2024-10-01
 categories: research
 image: /images/piamuscle.png
 authors: Erwin Wu, <strong>Yichen Peng</strong>, Rawal Khirodkar, Hideki Koike, Kris Kitani
