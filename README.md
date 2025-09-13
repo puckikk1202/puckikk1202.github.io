@@ -1,8 +1,29 @@
-# updated website
+# Yichen Peng's Personal Website
 
-This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+This is my personal website built with Jekyll and hosted on GitHub Pages. The site is based on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now) and uses a design inspired by [Jon Barron's website](https://jonbarron.info/).
 
-The website design is just a modification of [Jon Barron's website](https://jonbarron.info/) and is converted for my own use, re-purposing my old markdown posts. **Feel free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
+## About
+This website showcases my research work, professional projects, and other activities. It's organized into three main sections:
+- **Research**: Academic publications and research projects
+- **Professional Projects**: Industry work and professional experience  
+- **Other Projects**: Side projects, coursework, and personal work
+
+## Customization Guide
+To customize this website for your own use:
+
+1. **Update Personal Information**:
+   - Edit `_config.yml` to update your name, email, GitHub username, and other social links
+   - Replace the profile photo in `images/circle_bw_crop.jpg` with your own photo
+   - Update the bio and contact links in `_layouts/default.html`
+
+2. **Add Your Content**:
+   - Create new posts in the `_posts/` folder using the example format
+   - Use categories: `research`, `Intel` (or your company name), or other categories for different sections
+   - Add your project images to the `images/` folder and thumbnails to `tn/images/`
+
+3. **Customize Sections**:
+   - Edit section headers in `_layouts/default.html` (e.g., change "Professional Projects" to match your industry)
+   - Update the research interests and other descriptive text 
 
 
 
