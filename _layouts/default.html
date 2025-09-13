@@ -69,6 +69,7 @@
             </td>
           </tr>
         </table>
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -96,11 +97,17 @@
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.datasets %}
+              <a href="{{post.datasets}}">datasets</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
@@ -175,6 +182,9 @@
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
               {% endif %}
+              {% if post.datasets %}
+              <a href="{{post.datasets}}">datasets</a> /
+              {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
               {% endif %}
@@ -241,6 +251,9 @@
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.datasets %}
+              <a href="{{post.datasets}}">datasets</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
