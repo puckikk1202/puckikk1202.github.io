@@ -24,6 +24,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+
 </head>
 
 <body>
@@ -83,10 +87,10 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:200px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
@@ -147,10 +151,10 @@
           {% for cat in post.categories %}
           {% if cat == 'Intel' %} -->
           <!-- <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:180px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="padding:2.5%;width:65%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
               <em>{{post.categories}} {{post.course}}</em>
@@ -217,10 +221,10 @@
           {% for cat in post.categories %}
           {% if cat != 'research' and cat != 'Intel' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:180px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <td style="padding:2.5%;width:65%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
               <em>{{post.categories}} {{post.course}}</em>
