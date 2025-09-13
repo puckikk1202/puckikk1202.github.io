@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Emage: Towards unified holistic co-speech gesture generation via expressive masked audio gesture modeling"
+date: 2025-04-01
+categories: research
+image: /images/emage.png
+authors: Haiyang Liu, Zihao Zhu, Giorgio Becherini, <Strong>Yichen Peng</Strong>, Mingyang Su, You Zhou, Xuefei Zhe, Naoya Iwamoto, Bo Zheng, Michael J Black
+venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2024)
+paper: https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EMAGE_Towards_Unified_Holistic_Co-Speech_Gesture_Generation_via_Expressive_Masked_CVPR_2024_paper.pdf
+code: https://github.com/PantoMatrix/PantoMatrix/blob/main/train_emage_audio.py
+datasets: https://huggingface.co/datasets/H-Liu1997/BEAT2
+project: https://pantomatrix.github.io/EMAGE/
+---
+
+
+

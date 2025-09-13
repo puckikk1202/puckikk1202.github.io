@@ -3,7 +3,7 @@ layout: post
 title: "LineArt: A Knowledge-guided Training-free High-quality Appearance Transfer for Design Drawing with Diffusion Model"
 date: 2025-04-01
 categories: research
-image: /images/piamuscle.png
+image: /images/lineart.png
 authors: Xi Wang, Hongzhen Li, Heng Fang, <strong>Yichen Peng</strong>, Haoran Xie, Xi Yang, Chuntao Li
 venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2025)
 paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_LineArt_A_Knowledge-guided_Training-free_High-quality_Appearance_Transfer_for_Design_Drawing_CVPR_2025_paper.pdf
