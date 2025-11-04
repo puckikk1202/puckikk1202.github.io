@@ -6,7 +6,7 @@ categories: research
 image: /images/pose2muscle.png
 authors: Ruofan Liu, <strong>Yichen Peng</strong>, Takanori Oku, Chen-Chieh Liao, Erwin Wu, Shinichi Furuya, Hideki Koike
 venue: Conference on Neural Information Processing Systems (NeurIPS 2025)
-# paper: https://dl.acm.org/doi/pdf/10.1145/3706598.3713465
+paper: https://openreview.net/pdf/26eb537804fde5b11e5fcc37068d9f9fb6ad6fad.pdf
 ---
 
 
