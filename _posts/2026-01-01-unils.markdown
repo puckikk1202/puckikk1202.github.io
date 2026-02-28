@@ -1,0 +1,13 @@
+---
+layout: post
+title: "UniLS: End-to-End Audio-Driven Avatars for Unified Listening and Speaking"
+date: 2026-02-01
+categories: research
+image: /images/unils.png
+authors: Xuangeng Chu, Ruicong Liu, Yifei Huang, Yun Liu, <strong>Yichen Peng</strong>, Bo Zheng
+venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2026)
+paper: https://arxiv.org/abs/2512.09327
+---
+
+
+
