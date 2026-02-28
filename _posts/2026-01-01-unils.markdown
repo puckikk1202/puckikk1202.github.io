@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UniLS: End-to-End Audio-Driven Avatars for Unified Listening and Speaking"
-date: 2026-02-01
+date: 2026-01-01
 categories: research
 image: /images/unils.png
 authors: Xuangeng Chu, Ruicong Liu, Yifei Huang, Yun Liu, <strong>Yichen Peng</strong>, Bo Zheng
