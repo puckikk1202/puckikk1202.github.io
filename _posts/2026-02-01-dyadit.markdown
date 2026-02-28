@@ -3,7 +3,7 @@ layout: post
 title: "DyaDiT: A Multi-Modal Diffusion Transformer for Socially-Aware Dyadic Gesture Generation"
 date: 2026-02-01
 categories: research
-image: /images/dyadit.pdf
+image: /images/dyadit.gif
 authors: <strong>Yichen Peng</strong>, Jyun-Ting Song, Siyeol Jung, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani
 venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2026)
 paper: https://arxiv.org/html/2602.23165v1
