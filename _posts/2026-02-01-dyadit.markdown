@@ -7,6 +7,8 @@ image: /images/dyadit.gif
 authors: <strong>Yichen Peng</strong>, Jyun-Ting Song, Siyeol Jung, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani
 venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2026)
 paper: https://arxiv.org/html/2602.23165v1
+video: https://www.youtube.com/watch?v=SVCT3ShYylI
+project: https://puckikk1202.github.io/dyadit_hp/#
 ---
 
 
