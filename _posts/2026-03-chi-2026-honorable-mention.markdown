@@ -7,4 +7,3 @@ excerpt: "See you in Barcelona!"
 ---
 
 We are excited to announce that two papers have been accepted to CHI 2026, and one received an Honorable Mention award. See you in Barcelona!
-gi t
