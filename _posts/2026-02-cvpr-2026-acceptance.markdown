@@ -1,7 +1,7 @@
 ---
 title: "Two papers accepted to CVPR 2026"
 date: 2026-02
-categories: [news]
+categories: news
 excerpt: "See you in Denver!"
 ---
 

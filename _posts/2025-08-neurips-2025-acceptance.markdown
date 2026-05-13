@@ -1,5 +1,5 @@
 ---
-title: "Paper accepted to NeurIPS 2025"
+title: "One paper accepted to NeurIPS 2025"
 date: 2025-08
 categories: [news]
 excerpt: "See you in San Diego!"
