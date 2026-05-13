@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Two papers accepted to CVPR 2026"
 date: 2026-02-01
 categories: news
