@@ -1,6 +1,6 @@
 ---
 title: "One paper accepted to NeurIPS 2025"
-date: 2025-08
+date: 2025-08-01
 categories: news
 excerpt: "See you in San Diego!"
 ---

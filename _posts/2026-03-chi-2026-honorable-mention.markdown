@@ -1,6 +1,6 @@
 ---
 title: "Two papers accepted to CHI 2026 (Honorable Mention)"
-date: 2026-03
+date: 2026-03-01
 categories: news
 excerpt: "See you in Barcelona!"
 ---
