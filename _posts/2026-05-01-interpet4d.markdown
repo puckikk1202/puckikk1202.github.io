@@ -6,9 +6,9 @@ categories: research
 image: /images/interpet4d.gif
 authors: <strong>*Yichen Peng</strong>, *Jyun-Ting Song, *Chen-Chieh Liao, Kris Kitani, Hideki Koike, Erwin Wu
 venue: Arxiv
-# paper: https://arxiv.org/html/2602.23165v1
-# video: https://www.youtube.com/watch?v=SVCT3ShYylI
-# project: https://puckikk1202.github.io/dyadit_hp/#
+paper: hhttps://interactive-intelligence-lab.github.io/InterPet4D-Homepage/paper.pdf
+video: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
+project: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
 ---
 
 
