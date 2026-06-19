@@ -5,7 +5,7 @@ date: 2026-05-01
 categories: research
 image: /images/interpet4d.gif
 authors: <strong>*Yichen Peng</strong>, *Jyun-Ting Song, *Chen-Chieh Liao, Kris Kitani, Hideki Koike, Erwin Wu
-venue: Arxiv
+venue: The 19th European Conference on Computer Vision (ECCV2026)
 paper: hhttps://interactive-intelligence-lab.github.io/InterPet4D-Homepage/paper.pdf
 video: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
 project: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
