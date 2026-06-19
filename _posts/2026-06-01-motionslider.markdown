@@ -5,10 +5,8 @@ date: 2026-02-01
 categories: research
 image: /images/motionslider.gif
 authors: Chen-Chieh Liao, <strong>Yichen Peng</strong>, Yiyi Cai, Yui Ono, Hiroki Hanaoka, Erwin Wu, Hideki Koike, Shuichi Kurabayashi
-venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR2026)
+venue: The 19th European Conference on Computer Vision (ECCV2026)
 paper: https://arxiv.org/html/2602.23165v1
-video: -
-project: -
 ---
 
 
