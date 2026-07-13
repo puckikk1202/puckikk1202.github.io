@@ -9,6 +9,7 @@ venue: Proceedings of the Computer Vision and Pattern Recognition Conference (CV
 paper: https://arxiv.org/html/2602.23165v1
 video: https://www.youtube.com/watch?v=SVCT3ShYylI
 project: https://puckikk1202.github.io/dyadit_hp/#
+code: https://github.com/puckikk1202/dyadit
 ---
 
 

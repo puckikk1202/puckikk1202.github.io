@@ -9,6 +9,7 @@ venue: The 19th European Conference on Computer Vision (ECCV2026)
 paper: hhttps://interactive-intelligence-lab.github.io/InterPet4D-Homepage/paper.pdf
 video: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
 project: https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/
+datasets: https://huggingface.co/datasets/ohicarip/interpet4d
 ---
 
 
