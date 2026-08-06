@@ -3,7 +3,7 @@
 
 <head>
   <!-- Google tag (gtag.js) - Replace with your own Google Analytics ID -->
-  <!-- 
+  <!--
   <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -17,320 +17,132 @@
 
   <meta name="google-site-verification" content="SSXe5m3mkweBeEgBxYhBLl2uHCPZIV8wpx4dEpc4zbY" />
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
   <meta name="author" content="Yichen Peng" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yichen Peng - Assistant Professor at Institute of Science Tokyo and visiting researcher at CMU. Yichen Peng's research covers computer vision, human motion understanding, and multimodal generative models.">
 
-  <meta name="description" content="Yichen Peng - Assistant Professor at Institute of Science Tokyo and visiting researcher at CMU. Yichen Peng's research covers computer graphics, machine learning, and human-computer interaction.">
   <link rel="canonical" href="https://puckikk1202.github.io/">
-
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/pengyichen_icon.ico">
   <link rel="shortcut icon" href="{{ site.baseurl }}/images/pengyichen_icon.ico">
-
-  <!-- Custom styles for better line spacing -->
-  <style>
-    body {
-      line-height: 1.2;
-    }
-    p {
-      line-height: 1.3;
-      margin-bottom: 1.2em;
-    }
-    h1, h2, h3 {
-      line-height: 1.2;
-      margin-bottom: 0.8em;
-    }
-  </style>
-
 </head>
 
 <body>
-  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1 style="text-align:left">
-                Yichen Peng
-              </h1>
-              <p>
-                I am a research assistant professor at the <a href="https://www.vogue.cs.titech.ac.jp/members">Koike Lab</a>, Institute of Science Tokyo (ex. Tokyo Institute of Technology), working with Prof. <a href="https://www.vogue.cs.titech.ac.jp/koike">Hideki Koike</a>, and Prof. <a href="https://scholar.google.com/citations?user=bS_o0bcAAAAJ&hl=en">Ewrin Wu</a>. I am also a visiting scholar at Keio University working with Prof. <a href="https://kaikunze.de/">Kai Kunze</a>. Currently, I am visiting KLab, advised by Prof. <a href="https://kriskitani.github.io/">Kris Kitani</a>, Carnegie Mellon University. My research focuses on computer vision, human motion understanding, and multimodal generative models, with applications in skill training and human motion generation.
-              </p> 
-              <p>
-                I received my Master and Ph.D. in Computer Science from the Japan Advanced Institute of Science and Technology (JAIST) in 2021, 2024 respectively, supervised by Prof. <a href="https://www.jaist.ac.jp/~miyata/LabHP/index.html">Kazunori Miyata</a>. (Funded by JST-SPRING) I worked closely with Prof. <a href="https://www.jaist.ac.jp/~xie/">Haoran Xie</a>, and Prof. <a href="https://sites.google.com/view/tsukasafukusato">Tsukasa Fukasato</a> in Waseda University, on sketch-based 2D/3D Generation & Interface.
-              </p>
-    
-              <p style="text-align:center">
-                <a href="https://github.com/puckikk1202">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/yichen-peng-a84603217"> LinkedIn</a> &nbsp;/&nbsp;
-                <a href="/files/pengyichen-cv.pdf">CV</a>
-              </p>
-              <p style="text-align:center">
-                Email: yichen.p.8896[at]m.isct.ac.jp
-              </p>
-            </td>
-            <td style="padding:2.5%;width:30%;max-width:30%">
-              <img style="width:90%;max-width:90%" alt="profile photo" src="images/pengyichen.jpg">
-            </td>
-          </tr>
-        </table>
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="profile-title">
+      <div class="hero-content">
+        <p class="eyebrow">Computer Vision / Human Motion / Multimodal Generation</p>
+        <h1 id="profile-title">Yichen Peng</h1>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research Interests</h2>
-              <p>
-                My research focuses on computer vision, human motion understanding (Pose Estimation/Motion Capture), and multimodal generative models, with applications in skill training(Piano/Skiing/Golf) and human motion generation (Speech/Conversation Gesture).
-                I am also interested in sketch-based 2D/3D Generation & Interface.
-              </p>
-            </td>
-          </tr>
-        </table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>News</h2>
-              {% comment %} List posts categorized as 'news' for research updates {% endcomment %}
-              {% for post in site.posts %}
-              {% for cat in post.categories %}
-              {% if cat == 'news' %}
-              <div style="margin-bottom:1.2em">
-                <h3 style="margin:0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p style="margin:0.3em 0 0 0">{{ post.excerpt }}</p>
-              </div>
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Publications (Selected)</h2>
-            </td>
-          </tr>
-        </table>
+        <p>
+          I am a research assistant professor at the <a href="https://www.vogue.cs.titech.ac.jp/members">Koike Lab</a>,
+          Institute of Science Tokyo (ex. Tokyo Institute of Technology), working with Prof.
+          <a href="https://www.vogue.cs.titech.ac.jp/koike">Hideki Koike</a>, and Prof.
+          <a href="https://scholar.google.com/citations?user=bS_o0bcAAAAJ&hl=en">Erwin Wu</a>. I also serve as visiting
+          faculty at Sony CSL and Keio University Graduate School of Science and Technology. Currently, I am
+          visiting KLab, advised by Prof. <a href="https://kriskitani.github.io/">Kris Kitani</a>, Carnegie Mellon
+          University. My research focuses on computer vision, human motion understanding, and multimodal generative
+          models, with applications in skill training and human motion generation.
+        </p>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <p>
+          I received my Master and Ph.D. in Computer Science from the Japan Advanced Institute of Science and Technology
+          (JAIST), supervised by Prof.
+          <a href="https://www.jaist.ac.jp/~miyata/LabHP/index.html">Kazunori Miyata</a>. (Funded by JST-SPRING) I worked
+          closely with Prof. <a href="https://www.jaist.ac.jp/~xie/">Haoran Xie</a>, and Prof.
+          <a href="https://sites.google.com/view/tsukasafukusato">Tsukasa Fukasato</a> in Waseda University, on
+          sketch-based 2D/3D Generation &amp; Interface.
+        </p>
 
+        <nav class="profile-links" aria-label="Profile links">
+          <a href="https://github.com/puckikk1202">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=9sWVrREAAAAJ&hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/yichen-peng-a84603217">LinkedIn</a>
+          <a href="{{ site.baseurl }}/files/pengyichen-cv.pdf">CV</a>
+        </nav>
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:200px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:100%; height:180px; object-fit:contain; object-position:center;" />
-            </td>
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
+        <p class="email">yichen.p.8896[at]m.isct.ac.jp</p>
+      </div>
 
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.datasets %}
-              <a href="{{post.datasets}}">datasets</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.project %}
-              <a href="{{post.project}}">project</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
-              {% endif %}
-              {% if post.news %}
-              <a href="{{post.news}}">news</a> /
-              {% endif %}
-              <p></p>
+      <figure class="profile-photo">
+        <img alt="Yichen Peng" src="{{ site.baseurl }}/images/pengyichen.jpg">
+      </figure>
+    </section>
+
+    <section class="section" aria-labelledby="interests-title">
+      <h2 id="interests-title">Research Interests</h2>
+      <p>
+        My research focuses on computer vision, human motion understanding (Pose Estimation/Motion Capture), and
+        multimodal generative models, with applications in skill training (Piano/Skiing/Golf) and human motion
+        generation (Speech/Conversation Gesture). I am also interested in sketch-based 2D/3D Generation &amp; Interface.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="news-title">
+      <h2 id="news-title">News</h2>
+      <div class="news-list">
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'news' %}
+        <article class="news-item">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+          <div>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications <span>(Selected)</span></h2>
+
+      <div class="publication-list">
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'research' %}
+        <article class="publication">
+          <a class="publication-media" href="{% if post.project %}{{ post.project }}{% elsif post.paper %}{{ post.paper }}{% else %}{{ post.url }}{% endif %}" aria-label="{{ post.title }}">
+            <img src="{{ site.baseurl }}/tn{{ post.image }}" alt="{{ post.title }}">
+          </a>
+
+          <div class="publication-body">
+            <h3>{{ post.title }}</h3>
+            <p class="authors">{{ post.authors }}</p>
+            <p class="venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+
+            <div class="publication-links" aria-label="Publication links">
+              {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a>{% endif %}
+              {% if post.paper %}<a href="{{ post.paper }}">paper</a>{% endif %}
+              {% if post.video %}<a href="{{ post.video }}">video</a>{% endif %}
+              {% if post.code %}<a href="{{ post.code }}">code</a>{% endif %}
+              {% if post.datasets %}<a href="{{ post.datasets }}">datasets</a>{% endif %}
+              {% if post.poster %}<a href="{{ post.poster }}">poster</a>{% endif %}
+              {% if post.slides %}<a href="{{ post.slides }}">slides</a>{% endif %}
+              {% if post.project %}<a href="{{ post.project }}">project</a>{% endif %}
+              {% if post.youtube %}<a href="{{ post.youtube }}">youtube</a>{% endif %}
+              {% if post.news %}<a href="{{ post.news }}">news</a>{% endif %}
+            </div>
+
+            <div class="excerpt">
               {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Professional Projects</h2>
-              <p>Add information about your professional work experience and industry projects here.
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
+            </div>
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </section>
+  </main>
 
-          <!-- {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %} -->
-          <!-- <tr>
-            <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:180px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:100%; height:180px; object-fit:contain; object-position:center;" />
-            </td>
-            <td style="padding:2.5%;width:65%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.datasets %}
-              <a href="{{post.datasets}}">datasets</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table> -->
-        <!-- <br>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p>This section includes coursework, side projects, and other work you'd like to showcase.
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:35%;vertical-align:middle;min-width:180px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:100%; height:180px; object-fit:contain; object-position:center;" />
-            </td>
-            <td style="padding:2.5%;width:65%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.datasets %}
-              <a href="{{post.datasets}}">datasets</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table> -->
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <footer class="site-footer">
+    <p>Design and source code adapted from <a href="https://jonbarron.info">Jon Barron's website</a>.</p>
+  </footer>
 </body>
 
 </html>
-

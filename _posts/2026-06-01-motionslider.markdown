@@ -10,5 +10,3 @@ paper: https://arxiv.org/html/2602.23165v1
 project: https://liaochenchieh.com/projects/motion-style-slider/
 ---
 
-
-
