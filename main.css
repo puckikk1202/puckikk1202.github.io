@@ -285,6 +285,31 @@ img {
   color: var(--muted);
 }
 
+.visitor-map {
+  padding: 32px 0 8px;
+  text-align: center;
+}
+
+.visitor-map h2 {
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.visitor-map-widget {
+  width: 100%;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.visitor-map-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .site-footer {
   width: calc(100% - 40px);
   max-width: 1080px;
