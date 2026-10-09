@@ -140,28 +140,24 @@
     </section>
 
     {% if site.mapmyvisitors_id and site.mapmyvisitors_id != '' %}
-    <section class="visitor-map" aria-labelledby="visitor-map-title">
-      <h2 id="visitor-map-title">Visitors around the world</h2>
-      <div class="visitor-map-widget" id="visitor-map-container" data-map-id="{{ site.mapmyvisitors_id | escape }}">
-        <script>
-          (function () {
-            // Keep local previews from contributing to the live site's statistics.
-            if (window.location.hostname !== 'puckikk1202.github.io') return;
+    <!-- Hide the homepage widget only; the provider's statistics URL remains public. -->
+    <div id="visitor-map-container" hidden aria-hidden="true" data-map-id="{{ site.mapmyvisitors_id | escape }}">
+      <script>
+        (function () {
+          // Keep local previews from contributing to the live site's statistics.
+          if (window.location.hostname !== 'puckikk1202.github.io') return;
 
-            var container = document.getElementById('visitor-map-container');
-            var script = document.createElement('script');
-            script.id = 'mapmyvisitors';
-            script.async = true;
-            script.src = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a' +
-              '&t=n&d=' + encodeURIComponent(container.dataset.mapId) +
-              '&cmn=ed8d5a&cmo=ea9e58&co=77bbcc';
-            container.appendChild(script);
-          }());
-        </script>
-        <noscript>Enable JavaScript to view the visitor map.</noscript>
-      </div>
-      <p class="visitor-map-note">Approximate visitor locations, powered by MapMyVisitors.</p>
-    </section>
+          var container = document.getElementById('visitor-map-container');
+          var script = document.createElement('script');
+          script.id = 'mapmyvisitors';
+          script.async = true;
+          script.src = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=300' +
+            '&t=n&d=' + encodeURIComponent(container.dataset.mapId) +
+            '&cmn=ed8d5a&cmo=ea9e58&co=77bbcc';
+          container.appendChild(script);
+        }());
+      </script>
+    </div>
     {% endif %}
   </main>
 
