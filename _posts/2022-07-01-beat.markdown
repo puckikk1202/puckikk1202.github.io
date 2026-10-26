@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beat: A large-scale semantic and emotional multi-modal dataset for conversational gestures synthesis"
-date: 2024-07-01
+date: 2022-07-01
 categories: research
 image: /images/beat.png
 authors: Haiyang Liu, Zihao Zhu, Naoya Iwamoto, <Strong>Yichen Peng</Strong>,, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng  
@@ -11,6 +11,5 @@ code: https://github.com/PantoMatrix/PantoMatrix/blob/main/train_camn_audio.py
 datasets: https://pantomatrix.github.io/BEAT-Dataset/
 project: https://pantomatrix.github.io/BEAT/
 ---
-
 
 
